@@ -47,6 +47,12 @@ pip install fastmcp httpx
 
 O projeto le automaticamente o arquivo `.env` no mesmo diretorio do `server.py`.
 
+Comece copiando o arquivo de exemplo:
+
+```bash
+cp .env.example .env
+```
+
 Exemplo:
 
 ```env
@@ -158,6 +164,7 @@ PY
 ```text
 fast-note-sync-mcp/
   .env
+  .env.example
   .gitignore
   server.py
   README.md
@@ -176,4 +183,3 @@ Como o projeto esta concentrado em um unico arquivo, a manutencao tipica envolve
 - adicionar ou ajustar uma tool em `server.py`
 - validar a chamada contra a API real
 - atualizar este `README.md` se o contrato mudar
-
