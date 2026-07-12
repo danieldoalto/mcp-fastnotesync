@@ -40,7 +40,7 @@ Exemplo com `venv`:
 ```bash
 python -m venv .venv
 source .venv/bin/activate
-pip install fastmcp httpx
+pip install -r requirements.txt
 ```
 
 ## Configuracao
@@ -166,6 +166,7 @@ fast-note-sync-mcp/
   .env
   .env.example
   .gitignore
+  requirements.txt
   server.py
   README.md
 ```
